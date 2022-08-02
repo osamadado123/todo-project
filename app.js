@@ -41,7 +41,35 @@ var gender = prompt("Enter Your gender (male/female)")
  }
  else alert("fine")
 
- 
+  
+    
+  
+  
+  for (let i= 0 ;  ; ) {
+    var enjoy = prompt("are you enjoying this course")
+  if (enjoy== "") {
+    alert("invalid")
+    continue;
+  }
+  else break;
+}
+
+for (let i= 0 ;  ; ) {
+    var sport = prompt ("do you like sports");
+    if (sport == "") {
+      alert("invalid");
+    continue;
+  }
+  else break;
+}
+  var array = [sport,enjoy];
+  for (let index = 0; index < array.length; index++) {
+    console.log(array[index])
+    
+  }
+  
+  
+
  
   
  
